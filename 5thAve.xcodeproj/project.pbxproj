@@ -13,6 +13,46 @@
 		225738A01ABD967700EF2882 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2257389F1ABD967700EF2882 /* Images.xcassets */; };
 		225738A31ABD967700EF2882 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225738A11ABD967700EF2882 /* LaunchScreen.xib */; };
 		225738AF1ABD967700EF2882 /* _thAveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225738AE1ABD967700EF2882 /* _thAveTests.swift */; };
+		225738E11ABD972400EF2882 /* AddToCartButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738B91ABD972400EF2882 /* AddToCartButtonImage.png */; };
+		225738E21ABD972400EF2882 /* AlreadyHaveAnAccount.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738BA1ABD972400EF2882 /* AlreadyHaveAnAccount.png */; };
+		225738E31ABD972400EF2882 /* avater.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738BB1ABD972400EF2882 /* avater.png */; };
+		225738E41ABD972400EF2882 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738BC1ABD972400EF2882 /* BackButton.png */; };
+		225738E51ABD972400EF2882 /* BrandsToFollow.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738BD1ABD972400EF2882 /* BrandsToFollow.png */; };
+		225738E61ABD972400EF2882 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738BE1ABD972400EF2882 /* Camera.png */; };
+		225738E71ABD972400EF2882 /* CoachImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738BF1ABD972400EF2882 /* CoachImage.png */; };
+		225738E81ABD972400EF2882 /* CommentImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C01ABD972400EF2882 /* CommentImage.png */; };
+		225738E91ABD972400EF2882 /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C11ABD972400EF2882 /* continue.png */; };
+		225738EA1ABD972400EF2882 /* emailAddress.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C21ABD972400EF2882 /* emailAddress.png */; };
+		225738EB1ABD972400EF2882 /* EmailButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C31ABD972400EF2882 /* EmailButton.png */; };
+		225738EC1ABD972400EF2882 /* EmailFieldPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C41ABD972400EF2882 /* EmailFieldPlain.png */; };
+		225738ED1ABD972400EF2882 /* FacebookConnectButton.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C51ABD972400EF2882 /* FacebookConnectButton.png.png */; };
+		225738EE1ABD972400EF2882 /* FendiImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C61ABD972400EF2882 /* FendiImage.png */; };
+		225738EF1ABD972400EF2882 /* FollowBrands.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C71ABD972400EF2882 /* FollowBrands.png */; };
+		225738F01ABD972400EF2882 /* FollowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C81ABD972400EF2882 /* FollowButton.png */; };
+		225738F11ABD972400EF2882 /* FollowFriendsNav.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738C91ABD972400EF2882 /* FollowFriendsNav.png */; };
+		225738F21ABD972400EF2882 /* FollowYourFriendsLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738CA1ABD972400EF2882 /* FollowYourFriendsLabel.png */; };
+		225738F31ABD972400EF2882 /* ForgetYourPasswordBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738CB1ABD972400EF2882 /* ForgetYourPasswordBlank.png */; };
+		225738F41ABD972400EF2882 /* ForgotYourPassword.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738CC1ABD972400EF2882 /* ForgotYourPassword.png */; };
+		225738F51ABD972400EF2882 /* InstagramButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738CD1ABD972400EF2882 /* InstagramButton.png */; };
+		225738F61ABD972400EF2882 /* InstagramSignIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738CE1ABD972400EF2882 /* InstagramSignIn.png */; };
+		225738F71ABD972400EF2882 /* LikeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738CF1ABD972400EF2882 /* LikeImage.png */; };
+		225738F81ABD972400EF2882 /* Looks_Cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D01ABD972400EF2882 /* Looks_Cell.png */; };
+		225738F91ABD972400EF2882 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D11ABD972400EF2882 /* more.png */; };
+		225738FA1ABD972400EF2882 /* PasswordField.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D21ABD972400EF2882 /* PasswordField.png */; };
+		225738FB1ABD972400EF2882 /* PasswordFieldPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D31ABD972400EF2882 /* PasswordFieldPlain.png */; };
+		225738FC1ABD972400EF2882 /* Register_Connect_Plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D41ABD972400EF2882 /* Register_Connect_Plain.png */; };
+		225738FD1ABD972400EF2882 /* RegisterPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D51ABD972400EF2882 /* RegisterPlain.png */; };
+		225738FE1ABD972400EF2882 /* SidnupEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D61ABD972400EF2882 /* SidnupEmpty.png */; };
+		225738FF1ABD972400EF2882 /* SignInButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D71ABD972400EF2882 /* SignInButton.png */; };
+		225739001ABD972400EF2882 /* SignInEmailPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D81ABD972400EF2882 /* SignInEmailPlain.png */; };
+		225739011ABD972400EF2882 /* SignUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738D91ABD972400EF2882 /* SignUp.png */; };
+		225739021ABD972400EF2882 /* SignUp2Plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738DA1ABD972400EF2882 /* SignUp2Plain.png */; };
+		225739031ABD972400EF2882 /* Singnup1.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738DB1ABD972400EF2882 /* Singnup1.png */; };
+		225739041ABD972400EF2882 /* SkipThisStepButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738DC1ABD972400EF2882 /* SkipThisStepButton.png */; };
+		225739051ABD972400EF2882 /* Slideout.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738DD1ABD972400EF2882 /* Slideout.png */; };
+		225739061ABD972400EF2882 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738DE1ABD972400EF2882 /* tick.png */; };
+		225739071ABD972400EF2882 /* UsernameField.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738DF1ABD972400EF2882 /* UsernameField.png */; };
+		225739081ABD972400EF2882 /* UsernameFieldPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738E01ABD972400EF2882 /* UsernameFieldPlain.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +76,46 @@
 		225738A81ABD967700EF2882 /* 5thAveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5thAveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225738AD1ABD967700EF2882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		225738AE1ABD967700EF2882 /* _thAveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _thAveTests.swift; sourceTree = "<group>"; };
+		225738B91ABD972400EF2882 /* AddToCartButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddToCartButtonImage.png; sourceTree = "<group>"; };
+		225738BA1ABD972400EF2882 /* AlreadyHaveAnAccount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlreadyHaveAnAccount.png; sourceTree = "<group>"; };
+		225738BB1ABD972400EF2882 /* avater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avater.png; sourceTree = "<group>"; };
+		225738BC1ABD972400EF2882 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		225738BD1ABD972400EF2882 /* BrandsToFollow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrandsToFollow.png; sourceTree = "<group>"; };
+		225738BE1ABD972400EF2882 /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		225738BF1ABD972400EF2882 /* CoachImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoachImage.png; sourceTree = "<group>"; };
+		225738C01ABD972400EF2882 /* CommentImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommentImage.png; sourceTree = "<group>"; };
+		225738C11ABD972400EF2882 /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
+		225738C21ABD972400EF2882 /* emailAddress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailAddress.png; sourceTree = "<group>"; };
+		225738C31ABD972400EF2882 /* EmailButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmailButton.png; sourceTree = "<group>"; };
+		225738C41ABD972400EF2882 /* EmailFieldPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmailFieldPlain.png; sourceTree = "<group>"; };
+		225738C51ABD972400EF2882 /* FacebookConnectButton.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FacebookConnectButton.png.png; sourceTree = "<group>"; };
+		225738C61ABD972400EF2882 /* FendiImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FendiImage.png; sourceTree = "<group>"; };
+		225738C71ABD972400EF2882 /* FollowBrands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FollowBrands.png; sourceTree = "<group>"; };
+		225738C81ABD972400EF2882 /* FollowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FollowButton.png; sourceTree = "<group>"; };
+		225738C91ABD972400EF2882 /* FollowFriendsNav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FollowFriendsNav.png; sourceTree = "<group>"; };
+		225738CA1ABD972400EF2882 /* FollowYourFriendsLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FollowYourFriendsLabel.png; sourceTree = "<group>"; };
+		225738CB1ABD972400EF2882 /* ForgetYourPasswordBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForgetYourPasswordBlank.png; sourceTree = "<group>"; };
+		225738CC1ABD972400EF2882 /* ForgotYourPassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForgotYourPassword.png; sourceTree = "<group>"; };
+		225738CD1ABD972400EF2882 /* InstagramButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstagramButton.png; sourceTree = "<group>"; };
+		225738CE1ABD972400EF2882 /* InstagramSignIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstagramSignIn.png; sourceTree = "<group>"; };
+		225738CF1ABD972400EF2882 /* LikeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LikeImage.png; sourceTree = "<group>"; };
+		225738D01ABD972400EF2882 /* Looks_Cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Looks_Cell.png; sourceTree = "<group>"; };
+		225738D11ABD972400EF2882 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		225738D21ABD972400EF2882 /* PasswordField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PasswordField.png; sourceTree = "<group>"; };
+		225738D31ABD972400EF2882 /* PasswordFieldPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PasswordFieldPlain.png; sourceTree = "<group>"; };
+		225738D41ABD972400EF2882 /* Register_Connect_Plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register_Connect_Plain.png; sourceTree = "<group>"; };
+		225738D51ABD972400EF2882 /* RegisterPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RegisterPlain.png; sourceTree = "<group>"; };
+		225738D61ABD972400EF2882 /* SidnupEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SidnupEmpty.png; sourceTree = "<group>"; };
+		225738D71ABD972400EF2882 /* SignInButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignInButton.png; sourceTree = "<group>"; };
+		225738D81ABD972400EF2882 /* SignInEmailPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignInEmailPlain.png; sourceTree = "<group>"; };
+		225738D91ABD972400EF2882 /* SignUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignUp.png; sourceTree = "<group>"; };
+		225738DA1ABD972400EF2882 /* SignUp2Plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignUp2Plain.png; sourceTree = "<group>"; };
+		225738DB1ABD972400EF2882 /* Singnup1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Singnup1.png; sourceTree = "<group>"; };
+		225738DC1ABD972400EF2882 /* SkipThisStepButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkipThisStepButton.png; sourceTree = "<group>"; };
+		225738DD1ABD972400EF2882 /* Slideout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slideout.png; sourceTree = "<group>"; };
+		225738DE1ABD972400EF2882 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		225738DF1ABD972400EF2882 /* UsernameField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UsernameField.png; sourceTree = "<group>"; };
+		225738E01ABD972400EF2882 /* UsernameFieldPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UsernameFieldPlain.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +139,7 @@
 		2257388A1ABD967700EF2882 = {
 			isa = PBXGroup;
 			children = (
+				225738B81ABD96B700EF2882 /* Images */,
 				225738951ABD967700EF2882 /* 5thAve */,
 				225738AB1ABD967700EF2882 /* 5thAveTests */,
 				225738941ABD967700EF2882 /* Products */,
@@ -110,6 +191,53 @@
 				225738AD1ABD967700EF2882 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		225738B81ABD96B700EF2882 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				225738B91ABD972400EF2882 /* AddToCartButtonImage.png */,
+				225738BA1ABD972400EF2882 /* AlreadyHaveAnAccount.png */,
+				225738BB1ABD972400EF2882 /* avater.png */,
+				225738BC1ABD972400EF2882 /* BackButton.png */,
+				225738BD1ABD972400EF2882 /* BrandsToFollow.png */,
+				225738BE1ABD972400EF2882 /* Camera.png */,
+				225738BF1ABD972400EF2882 /* CoachImage.png */,
+				225738C01ABD972400EF2882 /* CommentImage.png */,
+				225738C11ABD972400EF2882 /* continue.png */,
+				225738C21ABD972400EF2882 /* emailAddress.png */,
+				225738C31ABD972400EF2882 /* EmailButton.png */,
+				225738C41ABD972400EF2882 /* EmailFieldPlain.png */,
+				225738C51ABD972400EF2882 /* FacebookConnectButton.png.png */,
+				225738C61ABD972400EF2882 /* FendiImage.png */,
+				225738C71ABD972400EF2882 /* FollowBrands.png */,
+				225738C81ABD972400EF2882 /* FollowButton.png */,
+				225738C91ABD972400EF2882 /* FollowFriendsNav.png */,
+				225738CA1ABD972400EF2882 /* FollowYourFriendsLabel.png */,
+				225738CB1ABD972400EF2882 /* ForgetYourPasswordBlank.png */,
+				225738CC1ABD972400EF2882 /* ForgotYourPassword.png */,
+				225738CD1ABD972400EF2882 /* InstagramButton.png */,
+				225738CE1ABD972400EF2882 /* InstagramSignIn.png */,
+				225738CF1ABD972400EF2882 /* LikeImage.png */,
+				225738D01ABD972400EF2882 /* Looks_Cell.png */,
+				225738D11ABD972400EF2882 /* more.png */,
+				225738D21ABD972400EF2882 /* PasswordField.png */,
+				225738D31ABD972400EF2882 /* PasswordFieldPlain.png */,
+				225738D41ABD972400EF2882 /* Register_Connect_Plain.png */,
+				225738D51ABD972400EF2882 /* RegisterPlain.png */,
+				225738D61ABD972400EF2882 /* SidnupEmpty.png */,
+				225738D71ABD972400EF2882 /* SignInButton.png */,
+				225738D81ABD972400EF2882 /* SignInEmailPlain.png */,
+				225738D91ABD972400EF2882 /* SignUp.png */,
+				225738DA1ABD972400EF2882 /* SignUp2Plain.png */,
+				225738DB1ABD972400EF2882 /* Singnup1.png */,
+				225738DC1ABD972400EF2882 /* SkipThisStepButton.png */,
+				225738DD1ABD972400EF2882 /* Slideout.png */,
+				225738DE1ABD972400EF2882 /* tick.png */,
+				225738DF1ABD972400EF2882 /* UsernameField.png */,
+				225738E01ABD972400EF2882 /* UsernameFieldPlain.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +320,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225738F51ABD972400EF2882 /* InstagramButton.png in Resources */,
+				225738EC1ABD972400EF2882 /* EmailFieldPlain.png in Resources */,
+				225738E41ABD972400EF2882 /* BackButton.png in Resources */,
+				225739061ABD972400EF2882 /* tick.png in Resources */,
+				225739011ABD972400EF2882 /* SignUp.png in Resources */,
+				225738FC1ABD972400EF2882 /* Register_Connect_Plain.png in Resources */,
+				225738E11ABD972400EF2882 /* AddToCartButtonImage.png in Resources */,
+				225738FB1ABD972400EF2882 /* PasswordFieldPlain.png in Resources */,
+				225738EE1ABD972400EF2882 /* FendiImage.png in Resources */,
+				225739051ABD972400EF2882 /* Slideout.png in Resources */,
+				225738EF1ABD972400EF2882 /* FollowBrands.png in Resources */,
+				225738ED1ABD972400EF2882 /* FacebookConnectButton.png.png in Resources */,
+				225738FA1ABD972400EF2882 /* PasswordField.png in Resources */,
+				225739001ABD972400EF2882 /* SignInEmailPlain.png in Resources */,
+				225738E81ABD972400EF2882 /* CommentImage.png in Resources */,
 				2257389E1ABD967700EF2882 /* Main.storyboard in Resources */,
+				225738E91ABD972400EF2882 /* continue.png in Resources */,
 				225738A31ABD967700EF2882 /* LaunchScreen.xib in Resources */,
+				225738E61ABD972400EF2882 /* Camera.png in Resources */,
+				225738F81ABD972400EF2882 /* Looks_Cell.png in Resources */,
+				225738F71ABD972400EF2882 /* LikeImage.png in Resources */,
+				225738FF1ABD972400EF2882 /* SignInButton.png in Resources */,
+				225738EA1ABD972400EF2882 /* emailAddress.png in Resources */,
+				225738F61ABD972400EF2882 /* InstagramSignIn.png in Resources */,
+				225739071ABD972400EF2882 /* UsernameField.png in Resources */,
+				225738F21ABD972400EF2882 /* FollowYourFriendsLabel.png in Resources */,
+				225738E21ABD972400EF2882 /* AlreadyHaveAnAccount.png in Resources */,
+				225739021ABD972400EF2882 /* SignUp2Plain.png in Resources */,
+				225738F41ABD972400EF2882 /* ForgotYourPassword.png in Resources */,
+				225738E71ABD972400EF2882 /* CoachImage.png in Resources */,
+				225738F31ABD972400EF2882 /* ForgetYourPasswordBlank.png in Resources */,
+				225738E51ABD972400EF2882 /* BrandsToFollow.png in Resources */,
+				225738E31ABD972400EF2882 /* avater.png in Resources */,
+				225739031ABD972400EF2882 /* Singnup1.png in Resources */,
+				225739041ABD972400EF2882 /* SkipThisStepButton.png in Resources */,
+				225738F01ABD972400EF2882 /* FollowButton.png in Resources */,
+				225738EB1ABD972400EF2882 /* EmailButton.png in Resources */,
+				225738F11ABD972400EF2882 /* FollowFriendsNav.png in Resources */,
+				225738FD1ABD972400EF2882 /* RegisterPlain.png in Resources */,
+				225738F91ABD972400EF2882 /* more.png in Resources */,
+				225738FE1ABD972400EF2882 /* SidnupEmpty.png in Resources */,
+				225739081ABD972400EF2882 /* UsernameFieldPlain.png in Resources */,
 				225738A01ABD967700EF2882 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
