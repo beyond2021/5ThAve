@@ -53,6 +53,12 @@
 		225739061ABD972400EF2882 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738DE1ABD972400EF2882 /* tick.png */; };
 		225739071ABD972400EF2882 /* UsernameField.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738DF1ABD972400EF2882 /* UsernameField.png */; };
 		225739081ABD972400EF2882 /* UsernameFieldPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 225738E01ABD972400EF2882 /* UsernameFieldPlain.png */; };
+		2257390A1ABDBCAB00EF2882 /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225739091ABDBCAB00EF2882 /* EmailLoginViewController.swift */; };
+		2257390D1ABDC3E900EF2882 /* EmailPageBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 2257390C1ABDC3E900EF2882 /* EmailPageBG.png */; };
+		225739121ABDD22A00EF2882 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2257390F1ABDD22A00EF2882 /* Montserrat-Bold.ttf */; };
+		225739131ABDD22A00EF2882 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225739101ABDD22A00EF2882 /* Montserrat-Regular.ttf */; };
+		225739141ABDD22A00EF2882 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 225739111ABDD22A00EF2882 /* OFL.txt */; };
+		22F4B47C1ABEDE060057A0BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F4B47B1ABEDE060057A0BF /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +122,12 @@
 		225738DE1ABD972400EF2882 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
 		225738DF1ABD972400EF2882 /* UsernameField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UsernameField.png; sourceTree = "<group>"; };
 		225738E01ABD972400EF2882 /* UsernameFieldPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UsernameFieldPlain.png; sourceTree = "<group>"; };
+		225739091ABDBCAB00EF2882 /* EmailLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
+		2257390C1ABDC3E900EF2882 /* EmailPageBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmailPageBG.png; sourceTree = "<group>"; };
+		2257390F1ABDD22A00EF2882 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		225739101ABDD22A00EF2882 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		225739111ABDD22A00EF2882 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		22F4B47B1ABEDE060057A0BF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +151,7 @@
 		2257388A1ABD967700EF2882 = {
 			isa = PBXGroup;
 			children = (
+				2257390E1ABDD21300EF2882 /* Font */,
 				225738B81ABD96B700EF2882 /* Images */,
 				225738951ABD967700EF2882 /* 5thAve */,
 				225738AB1ABD967700EF2882 /* 5thAveTests */,
@@ -158,9 +171,11 @@
 		225738951ABD967700EF2882 /* 5thAve */ = {
 			isa = PBXGroup;
 			children = (
+				2257390B1ABDBCB900EF2882 /* login */,
 				225738981ABD967700EF2882 /* AppDelegate.swift */,
 				2257389A1ABD967700EF2882 /* ViewController.swift */,
 				2257389C1ABD967700EF2882 /* Main.storyboard */,
+				22F4B47B1ABEDE060057A0BF /* LoginViewController.swift */,
 				2257389F1ABD967700EF2882 /* Images.xcassets */,
 				225738A11ABD967700EF2882 /* LaunchScreen.xib */,
 				225738961ABD967700EF2882 /* Supporting Files */,
@@ -196,6 +211,7 @@
 		225738B81ABD96B700EF2882 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2257390C1ABDC3E900EF2882 /* EmailPageBG.png */,
 				225738B91ABD972400EF2882 /* AddToCartButtonImage.png */,
 				225738BA1ABD972400EF2882 /* AlreadyHaveAnAccount.png */,
 				225738BB1ABD972400EF2882 /* avater.png */,
@@ -238,6 +254,24 @@
 				225738E01ABD972400EF2882 /* UsernameFieldPlain.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		2257390B1ABDBCB900EF2882 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				225739091ABDBCAB00EF2882 /* EmailLoginViewController.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		2257390E1ABDD21300EF2882 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2257390F1ABDD22A00EF2882 /* Montserrat-Bold.ttf */,
+				225739101ABDD22A00EF2882 /* Montserrat-Regular.ttf */,
+				225739111ABDD22A00EF2882 /* OFL.txt */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,9 +356,11 @@
 			files = (
 				225738F51ABD972400EF2882 /* InstagramButton.png in Resources */,
 				225738EC1ABD972400EF2882 /* EmailFieldPlain.png in Resources */,
+				225739131ABDD22A00EF2882 /* Montserrat-Regular.ttf in Resources */,
 				225738E41ABD972400EF2882 /* BackButton.png in Resources */,
 				225739061ABD972400EF2882 /* tick.png in Resources */,
 				225739011ABD972400EF2882 /* SignUp.png in Resources */,
+				225739121ABDD22A00EF2882 /* Montserrat-Bold.ttf in Resources */,
 				225738FC1ABD972400EF2882 /* Register_Connect_Plain.png in Resources */,
 				225738E11ABD972400EF2882 /* AddToCartButtonImage.png in Resources */,
 				225738FB1ABD972400EF2882 /* PasswordFieldPlain.png in Resources */,
@@ -336,7 +372,9 @@
 				225739001ABD972400EF2882 /* SignInEmailPlain.png in Resources */,
 				225738E81ABD972400EF2882 /* CommentImage.png in Resources */,
 				2257389E1ABD967700EF2882 /* Main.storyboard in Resources */,
+				2257390D1ABDC3E900EF2882 /* EmailPageBG.png in Resources */,
 				225738E91ABD972400EF2882 /* continue.png in Resources */,
+				225739141ABDD22A00EF2882 /* OFL.txt in Resources */,
 				225738A31ABD967700EF2882 /* LaunchScreen.xib in Resources */,
 				225738E61ABD972400EF2882 /* Camera.png in Resources */,
 				225738F81ABD972400EF2882 /* Looks_Cell.png in Resources */,
@@ -380,7 +418,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F4B47C1ABEDE060057A0BF /* LoginViewController.swift in Sources */,
 				2257389B1ABD967700EF2882 /* ViewController.swift in Sources */,
+				2257390A1ABDBCAB00EF2882 /* EmailLoginViewController.swift in Sources */,
 				225738991ABD967700EF2882 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,6 +615,7 @@
 				225738B41ABD967700EF2882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		225738B51ABD967700EF2882 /* Build configuration list for PBXNativeTarget "5thAveTests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +624,7 @@
 				225738B71ABD967700EF2882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
