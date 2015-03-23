@@ -7,12 +7,19 @@
 //
 
 import UIKit
+//import Parse
+//import Facebook
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, NSURLConnectionDataDelegate, UITabBarControllerDelegate {
 
     var window: UIWindow?
-
+ private   let home = Main5THViewController()
+    private let welcome = LoginViewController()
+    
+    
+    
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -34,12 +41,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        // Logs 'install' and 'app activate' App Events.
+       // [FBAppEvents activateApp];
+        FBAppEvents.activateApp()
+        
+        
     }
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    //MARK: Facebook
+     func application(application: UIApplication,
+        openURL url: NSURL,
+         sourceApplication: String?,
+         annotation: AnyObject?) -> Bool{
+            // attempt to extract a token from the url
+           // return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+            return FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+            
+    }
+    
+    //MARK: Public API
+    func presentLoginViewController(){
+        
+    }
+    
+    func presentLoginViewController(animated:Bool){
+        
+    }
+    
+    func logOut(){
+        
+    }
+    
+    func autofollowers(){
+        
+    }
+    
+    func presentTabBarController(){
+        
+    }
+
+    
 
 
 }

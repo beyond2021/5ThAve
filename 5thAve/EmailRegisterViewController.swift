@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EmailLoginViewController: UIViewController, UITextFieldDelegate {
+class EmailRegisterViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var signUpViewBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var signupviewTopConstraint: NSLayoutConstraint!
@@ -31,7 +31,9 @@ class EmailLoginViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        signUpButton.enabled = false
+        self.signupviewTopConstraint.constant = 240        
+       // signUpButton.enabled = false
+       // signInNotREady()
         
         emailTextField.delegate = self
         passwordTextField.delegate = self
@@ -45,8 +47,23 @@ class EmailLoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     
+    func signInNotREady(){
+        let bounds = self.signUpButton.bounds
+        UIView.animateWithDuration(1.0, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10, options: nil, animations: {
+            self.signUpButton.bounds = CGRect(x: bounds.origin.x - 20, y: bounds.origin.y, width: bounds.size.width + 10, height: bounds.size.height)
+            self.signUpButton.enabled = false
+            }, completion: nil)
+        
+        
+    }
+    
+    
  
     @IBAction func signInPressed(sender: UIButton) {
+        
+        signInNotREady()
+        
+        
     }
     
     
@@ -55,7 +72,7 @@ func theKeyboardAppeared(){
     
     
     UIView.animateWithDuration(0.9, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
-        self.signupviewTopConstraint.constant = 100
+        self.signupviewTopConstraint.constant = 160
         self.view.layoutIfNeeded()
         }, completion: nil)
     
@@ -70,7 +87,7 @@ func theKeyboardAppeared(){
        // signupviewTopConstraint.constant = 199
         
         UIView.animateWithDuration(0.9, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
-            self.signupviewTopConstraint.constant = 199
+            self.signupviewTopConstraint.constant = 240
             self.view.layoutIfNeeded()
             }, completion: nil)
         

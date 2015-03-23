@@ -34,7 +34,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var instagramButtonHeight: NSLayoutConstraint!
     
-    @IBOutlet weak var instagramButtonWidthg: NSLayoutConstraint!
+    @IBOutlet weak var instagramButtonWidth: NSLayoutConstraint!
     
     
     @IBOutlet weak var emailButtonWidth: NSLayoutConstraint!
@@ -125,4 +125,12 @@ class LoginViewController: UIViewController {
     }
     */
 
+    @IBAction func instagramButtonPressed(sender: UIButton) {
+    }
+    
+    
+    @IBAction func facebookButtonPressed(sender: UIButton) {
+    }
+    
+    
 }
